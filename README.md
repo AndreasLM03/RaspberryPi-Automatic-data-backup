@@ -55,9 +55,13 @@ os.remove(a)
 
 
 open crontab by typing crontab -e in your terminal
+
+
 <img src= "images/00 rasp crontab.jpg" width="600">
 
 insert the file path to your python script. You can adjust the upload-frequency by changing the crontab syntax (cf. https://crontab.guru/between-certain-hours)
+
+
 <img src= "images/01 rasp crontab.jpg" width="600">
 
 
