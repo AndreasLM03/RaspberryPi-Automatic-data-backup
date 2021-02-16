@@ -8,7 +8,7 @@ I wrote the following python script because my Raspberry Pi failed once and I co
 
 Important: You need to install dropbox on your raspberry pi (cf. https://pimylifeup.com/raspberry-pi-dropbox/)
 
-Copy this skript on your raspberry pi and chance the folders you want to backup into your dropbox cloud.
+Copy this skript (20_12_31_Backup.py) on your raspberry pi and chance the folders you want to backup into your dropbox cloud.
 
 
 
