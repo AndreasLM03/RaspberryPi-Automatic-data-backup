@@ -62,6 +62,12 @@ open crontab by typing crontab -e in your terminal
 insert the file path to your python script. You can adjust the upload-frequency by changing the crontab syntax (cf. https://crontab.guru/between-certain-hours)
 
 
+```python
+25 17 * * 1 /usr/bin/python3 /home/pi/Dokumente/Programme/Backup/20_12_31_Backup.py
+```   
+This will upload all data from the desired folder every Monday at 5:25 pm
+
+
 <img src= "images/01 rasp crontab.jpg" width="600">
 
 
