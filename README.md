@@ -11,7 +11,7 @@ Important: You need to install dropbox on your raspberry pi (cf. https://pimylif
 Copy this skript (20_12_31_Backup.py) on your raspberry pi and chance the folders you want to backup into your dropbox cloud.
 
 
-
+````python
 #!/usr/bin/python
 import re
 import time
@@ -48,7 +48,7 @@ time.sleep(30)
 
 os.remove(a)
 
-
+````
 
 ---
 ## crontab 
