@@ -16,7 +16,8 @@ import glob
 import os
 import subprocess
 
-### TIME
+#TIME
+
 UnixTime = int(time.time())
 print (UnixTime)
 currentdate = datetime.datetime.fromtimestamp(UnixTime).strftime('%Y-%m-%d') # creates a string with current date 
@@ -30,20 +31,22 @@ shutil.make_archive(output_filename, 'zip', dir_name)
 time.sleep(10)
 
 
-## Dropbox Upload
+#Dropbox Upload
+
 targetPattern = r"/home/pi/*.zip" #search for the current backupfile
 a = glob.glob(targetPattern)[0] #search for the current backupfile
 os.system("/home/pi/Dropbox-Uploader/dropbox_uploader.sh upload " + a + " /Backup/") #upload the current backup file to the dropboxcloud
 
 time.sleep(30)
 
-## Delete zip file on raspberry 
+#Delete zip file on raspberry 
+
 os.remove(a)
 
 
 
 ---
-## Python Script which should run on your raspberry pi
+## crontab 
 
 
 
