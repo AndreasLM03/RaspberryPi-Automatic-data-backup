@@ -6,6 +6,11 @@ I wrote the following python script because my Raspberry Pi failed once and I co
 ---
 ## Python Script which should run on your raspberry pi
 
+Important: You need to install dropbox on your raspberry pi (cf. https://pimylifeup.com/raspberry-pi-dropbox/)
+
+Copy this skript on your raspberry pi and chance the folders you want to backup into your dropbox cloud.
+
+
 
 #!/usr/bin/python
 import re
@@ -47,6 +52,19 @@ os.remove(a)
 
 ---
 ## crontab 
+
+
+open crontab by typing crontab -e in your terminal
+<img src= "images/00 rasp crontab.jpg" width="800">
+
+insert the file path to your python script. You can adjust the upload-frequency by changing the crontab syntax (cf. https://crontab.guru/between-certain-hours)
+<img src= "images/01 rasp crontab.jpg" width="800">
+
+
+---
+## Backup on your dropbox clouad
+after uploading your backup you can have access on all your connected devices.
+<img src= "images/02 uploads.jpg" width="800">
 
 
 
