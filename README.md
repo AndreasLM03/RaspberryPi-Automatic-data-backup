@@ -55,16 +55,17 @@ os.remove(a)
 
 
 open crontab by typing crontab -e in your terminal
-<img src= "images/00 rasp crontab.jpg" width="800">
+<img src= "images/00 rasp crontab.jpg" width="600">
 
 insert the file path to your python script. You can adjust the upload-frequency by changing the crontab syntax (cf. https://crontab.guru/between-certain-hours)
-<img src= "images/01 rasp crontab.jpg" width="800">
+<img src= "images/01 rasp crontab.jpg" width="600">
 
 
 ---
-## Backup on your dropbox clouad
+## Backup on your dropbox cloud
 after uploading your backup you can have access on all your connected devices.
-<img src= "images/02 uploads.jpg" width="800">
+
+<img src= "images/02 uploads.jpg" width="600">
 
 
 
